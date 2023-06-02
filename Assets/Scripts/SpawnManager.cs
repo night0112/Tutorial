@@ -28,6 +28,7 @@ public class SpawnManager : MonoBehaviour
         Instantiate(animalPrefabs[animalIndex],
                     spawnPos,
                     animalPrefabs[animalIndex].transform.rotation);
+
     }
 }//ここがクラスの終わり
 //ここから書いちゃう人がいる...ダメ
